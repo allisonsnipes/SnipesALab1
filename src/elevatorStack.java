@@ -7,7 +7,6 @@ public class elevatorStack {
     private final int STACKSIZE = 5;
     private int top;
     private int[] people;
-    private int wasEmpty;
 
     //stack methods will go here
 
@@ -24,5 +23,9 @@ public class elevatorStack {
             return false;
         }
     }
+
+    /**
+     * Here I will implement a pop method that will check if the stack is empty and throw an error
+     */
 
 }
